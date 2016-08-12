@@ -1,2 +1,3 @@
 # dnd-infofile
-Obtem informações sobre o arquivo.
+Obterm informações detalhadas sobre o arquivo.
+Após a execução, arraste o arquivo desejado até o pinguim.
