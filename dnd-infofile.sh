@@ -2,7 +2,7 @@
 
 #-----------------------------------------------------------#
 # Data: 12 de Agosto de 2016
-# Nome: Juliano Santos  [x_SHAMAN_x]
+# Criado por: Juliano Santos  [x_SHAMAN_x]
 # Script: dnd-infofile
 # Descrição: Obtem informações detalhadas do arquivo.
 #-----------------------------------------------------------#
