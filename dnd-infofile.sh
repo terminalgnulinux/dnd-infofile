@@ -30,9 +30,7 @@ function GetFileInfo()
 	# Lê as informações do arquivo em 'FILE', obtidas pelo comando 'stat' na formatação especificada
 	# nos parametros do comando e imprimidos pelo comando 'printf'
 	# Os formatos foram separados pelo delimitador definido em 'IFS'
-	for info in $(stat --printf "%a|%A|%B|%d|%D|%f|%F|%g|%G|%u|%U|%s|%x|%y|%z" "$FILE"); do
-		# Adiciona a cada indice do array o valor armazenado em 'info'
-		FILE_INFO+=("$info"); done
+	FILE_INFO=($(stat --printf "%a|%A|%B|%d|%D|%f|%F|%g|%G|%u|%U|%s|%x|%y|%z" "$FILE"))
 	
 	# Limpa 
 	unset IFS
