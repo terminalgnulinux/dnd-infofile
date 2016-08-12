@@ -11,7 +11,7 @@
 # no objetivo de manter apenas o arquivo do script sem imagens em anexo, deixando
 # a critério do usuário, modificá-la. Basta alterar o valor da variavel 'IMG_PATH'
 # com diretório da imagem de sua preferência e comentar a linha 'wget'
-wget https://raw.githubusercontent.com/terminalgnulinux/dnd-infofile/master/ask.png -O /tmp/ask.png /tmp &>/dev/null
+wget https://raw.githubusercontent.com/terminalgnulinux/dnd-infofile/master/ask.png -O /tmp/ask.png &>/dev/null
 
 # Splash imagem
 # O pinguim que tudo sabe, visivel na janela principal.
